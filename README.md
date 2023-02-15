@@ -1,2 +1,2 @@
 # python-course:
-Welcome To this Python course for Beginners.
+Welcome to this Python Course for Beginners.
