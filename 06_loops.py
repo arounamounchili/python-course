@@ -4,7 +4,8 @@ Python Loops: Repeat an action several times. Looping represents the ability of
               until a certain condition is met
 """
 
-""" For Loops: A for loop is used for iterating over a sequence (lists, tuple, set, or string """
+""" For Loops: A for loop is used to repeat a block of code multiple times.
+    It can be used for iterating over a sequence (lists, tuple, set, or string """
 
 fruits = ["avocado", "orange", 'apple', "ananas"]
 
