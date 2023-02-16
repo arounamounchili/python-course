@@ -1,13 +1,17 @@
 # 1- Intro
 
-# 2- What you can do with pytho
+# 2- What you can do with python
 
 # 3- Installation: python and VSCode
 
 # 4- Your fist Program (Create Project and Hello World
+
 print("Hello World!")
+print("This is our second print")
+print()
 
 # 5-  Variables:  Hoe to declare variable
+
 age = 25  # int
 print(age)
 weight = 78.6  # float
@@ -19,6 +23,7 @@ is_major = True  # Boolean
 is_active = False  # Boolean
 print(is_major)
 print(is_active)
+
 # Variable type
 print(type(age))
 print(type(weight))
@@ -26,7 +31,9 @@ print(type(last_name))
 print(type(is_major))
 print()
 
+
 # 6- String
+
 greeting = " Hello Python "
 print(greeting.upper())
 print(greeting.lower())
@@ -40,7 +47,9 @@ greeting = greeting.replace('Python', 'C++').strip()
 print(greeting)
 print()
 
+
 # 7- Arithmetic Operators
+
 x = 12
 y = 18
 print(x + y)
@@ -59,7 +68,9 @@ operator_precedence = 10 + 39 * 2 + 2 * (34 + 5)
 print(operator_precedence)
 # etc.
 
+
 # 8- convert Variable
+
 height = 180
 height_to_float = float(height)
 print(height_to_float)
@@ -72,7 +83,9 @@ print(age_to_int)
 # str()
 print()
 
+
 # 9- User Input
+
 # input("What is your name? ")
 # name = input("What is your name? ")
 # print("your name is: " + name)
@@ -81,7 +94,9 @@ print()
 # age = int(age) + 1
 # print("Happy Birthday, you are " + age + "Years old.)
 
+
 # 10- IF Statement
+
 price = 20000
 if price > 10000:
     print("The Price is greater than 10000")
@@ -111,8 +126,11 @@ if name.lower() == "python" and is_major == True:
 if name.lower() == "java" or name.lower() == "javascript":
     print("Bye Bye")
 """
+print()
+
 
 # 11- Loops
+
 print("1")
 print("2")
 print("3")
@@ -128,7 +146,11 @@ while i <= 5:
     i += 1
     print(i)
 
+print()
+
+
 # 12- Lists
+
 my_cars = ["VW", "Ford", "Mercedes", "NISSAN"]
 #           0       1         2          3
 print(my_cars)
@@ -154,10 +176,50 @@ print("Volkswagen" in my_cars)
 for car in my_cars:
     print(car)
 
+print()
+
+
 # 13- Tuples
+
 fruits = ("Banana", "Orange", "Apple")
 print(fruits)
 print(fruits[0])
 print(len(fruits))
+print()
+
 
 # 14- Functions
+
+# Creating a Function
+def my_function():
+    print("This is our first function")
+    print("This is our first function")
+
+
+# Calling a function
+my_function()
+
+
+# Arguments: We can pass information into functions as arguments
+def greeting(name):
+    print(f'Hello, {name}')
+
+
+def greeting2(name1, name2):
+    print(f'Hello, {name1} and {name2}')
+
+
+greeting("CCB")
+greeting2("Jules", "Julie")
+
+
+# Function with a Return Value
+def addition(number1, number2):
+    result_addition = number1 + number2
+    return result_addition
+
+
+a = 120
+b = 80
+result = addition(a, b)
+print(f'The addition of a and b is: {result}\n')
